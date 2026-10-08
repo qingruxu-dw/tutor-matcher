@@ -1,0 +1,22 @@
+.block-container { max-width: 1220px; padding-top: 2.2rem; }
+h1,h2,h3 { letter-spacing: -.035em; }
+.tech-hero { border:1px solid rgba(255,75,75,.23); border-radius:18px;
+ padding:28px 32px; margin-bottom:22px; position:relative;
+ background:linear-gradient(115deg,rgba(255,75,75,.09),transparent 65%),
+ repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(255,75,75,.045) 40px),
+ repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(255,75,75,.045) 40px); }
+.tech-kicker { color:#ff4b4b; font-size:.72rem; font-weight:700; letter-spacing:.18em; }
+.tech-hero h1 { font-size:2rem; margin:8px 0; padding:0; }
+.tech-subtitle { opacity:.7; font-size:.93rem; }
+[data-testid="stVerticalBlockBorderWrapper"] { border-radius:16px !important; }
+[data-testid="stMetric"] { padding:16px 20px; border:1px solid rgba(128,128,128,.16);
+ border-radius:12px; background:rgba(255,75,75,.025); }
+[data-testid="stMetricValue"] { font-variant-numeric:tabular-nums; font-size:1.85rem; }
+[data-testid="stSidebar"] { border-right:1px solid rgba(255,75,75,.15); }
+.order-id { font-family:monospace; color:#ff4b4b; font-size:.78rem; letter-spacing:.06em; }
+.status-badge { display:inline-block; padding:4px 10px; border-radius:6px;
+ border:1px solid rgba(255,75,75,.25); background:rgba(255,75,75,.065); font-size:.8rem; }
+.route-label { color:#ff4b4b; font-size:.75rem; font-weight:700; letter-spacing:.08em; }
+[data-testid="stExpander"] { border-radius:10px !important; }
+button { border-radius:9px !important; }
+@media(max-width:640px) {.tech-hero {padding:20px;} .block-container {padding-top:1rem;} }
